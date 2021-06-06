@@ -3,6 +3,7 @@ const burger = document.querySelector("#burger");
 const x = document.querySelector(".cross");
 const body = document.querySelector("body");
 const arrow = document.querySelector("#arrow-down");
+const index = document.querySelector(".index-welcome");
 
 
 // Adding click events to menu icon and X icon
@@ -25,7 +26,8 @@ function burgermenu() {
     }
 }
 
-let viewSize = Math.max(document.documentElement.clientHeight);
+// let viewSize = Math.max(document.documentElement.clientHeight);
+let viewSize = index.clientHeight;
 
 function scroller() {
     window.scrollTo(0, viewSize);
