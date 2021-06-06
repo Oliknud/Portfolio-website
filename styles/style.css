@@ -33,8 +33,21 @@ html {
     height: 120px;
 }
 
+h2 {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 400;
+}
+
 .index-heading h2 {
     font-size: 28px;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 500;
 }
 
 p {
