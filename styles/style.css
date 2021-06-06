@@ -77,14 +77,14 @@ header img {
 
 main {
     color: white;
-    padding: 60px 30px;
+    padding: 90px 30px 0;
 }
 
 .index-latest {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 90px auto;
+    margin: 120px auto 0;
 }
 
 .index-latest h2 {
@@ -153,7 +153,7 @@ main {
 }
 
 .active-site {
-    border-bottom: #8C3A48 solid 4px;
+    border-bottom: #AF4B43 solid 4px;
 }
 
 .mobile-links a {
@@ -172,7 +172,7 @@ main {
 footer {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 0 30px 30px;
 }
 
 footer img {
