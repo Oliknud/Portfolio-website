@@ -9,11 +9,17 @@
 </head>
 <body>
     <div class="index-welcome">
-        <header>
             <div class="mobile-nav">
-            <img src="img/burger.svg" alt="menu icon">
+                <img src="img/x.svg" alt="cross" class="cross">
+                <div class="mobile-links">
+                    <a href="index.html" class="active-site">Home</a>
+                    <a href="about.html">About me</a>
+                    <a href="projects.html">Projects</a>
+                </div>
             </div>
 
+        <header>
+            <img src="img/burger.svg" alt="menu icon" id="burger">
             <div class="desktop-nav">
 
             </div>
@@ -26,9 +32,9 @@
         <div class="index-hero">
             <img src="img/heroimg.jpg" id="hero-img" alt="hero img of laptop">
         </div>
-        <img src="img/downArrow.svg" id="arrow-down" alt="arrow down">
+        <a href="#main"><img src="img/downArrow.svg" id="arrow-down" alt="arrow down"></a>
     </div>
-    <main>
+    <main id="main">
         <h1>Welcome</h1>
         <p>I'm Ole-Andreas, front-end developer student at Noroff school of technology and digital media.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula ut urna nec tempor. Nullam tempor, quam eu dignissim porttitor, sem nulla posuere justo, non tincidunt mi eros a ante. </p>
@@ -37,15 +43,32 @@
 
         <div class="index-latest">
             <h2>Latest projects</h2>
-            <div class="index-card">
 
+            <div class="index-card">
+                <h3>The Anime Blog</h3>
+                <img src="img/kamikaze-regular.png" alt="anime logo" class="card-img anime-logo">
+                <a href="#" class="view-btn">View</a>
+            </div>
+
+            <div class="index-card">
+                <h3>Game Hub</h3>
+                <img src="img/gamehub.png" alt="gamehub logo" class="card-img gamehub-logo">
+                <a href="#" class="view-btn">View</a>
+            </div>
+
+            <div class="index-card">
+                <h3>Science Museum</h3>
+                <img src="img/museum.png" alt="museum logo" class="card-img museum-logo">
+                <a href="#" class="view-btn">View</a>
             </div>
         </div>
         
     </main>
-
+    
     <footer>
-
+        <img src="img/linkedin-logo.svg" alt="linkedIn icon">
+        <img src="img/insta-logo.svg" alt="instagram icon">
     </footer>
+    <script src="js/menu.js"></script>
 </body>
 </html>
