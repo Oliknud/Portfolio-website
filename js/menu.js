@@ -2,18 +2,13 @@ const menuLinks = document.querySelector(".mobile-nav");
 const burger = document.querySelector("#burger");
 const x = document.querySelector(".cross");
 const body = document.querySelector("body");
-const arrow = document.querySelector("#arrow-down");
-const index = document.querySelector(".index-welcome");
-let viewSize = index.clientHeight;
+
 
 // Adding click events to menu icon and X icon
 burger.addEventListener("click", burgermenu);
 x.addEventListener("click", burgermenu);
 
-// Scroll down arrow
-arrow.addEventListener("click", function(){
-    window.scrollTo(0, viewSize);
-});
+
 
 function burgermenu() {
     
