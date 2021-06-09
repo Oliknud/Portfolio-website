@@ -119,6 +119,10 @@ main {
     margin: 120px 0 30px 0;
 }
 
+.blog-h2 {
+    margin: 60px 0 30px 0;
+}
+
 .index-card {
     display: flex;
     flex-direction: column;
@@ -228,6 +232,25 @@ footer img {
     margin-bottom: 10px;
 }
 
+.post img {
+    width: 100px;
+    height: 130px;
+}
+
+.project-img {
+    margin: 60px 0;
+    max-width: 300px;
+}
+
+.about-part {
+    margin-top: 60px;
+}
+
+.intro-img {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (min-width: 800px) {
 
     #hero-img {
@@ -244,6 +267,10 @@ footer img {
 
     .index-heading {
         height: 200px;
+    }
+
+    .index-main {
+        padding-top: 120px;
     }
 
     .desktop-nav {
@@ -268,6 +295,25 @@ footer img {
     .index-heading h2{
         font-size: 40px;
     }
+
+    .profile-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .intro-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 1340px;
+    }
+
+    .project-img {
+        max-width: 700px;
+    }
+
 }
 
 @media screen and (min-width: 1400px) {
