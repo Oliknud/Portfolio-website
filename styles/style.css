@@ -251,6 +251,10 @@ footer {
     margin-top: 60px;
 }
 
+.aboutMe {
+    margin-top: 120px;
+}
+
 .intro-img {
     display: flex;
     justify-content: center;
